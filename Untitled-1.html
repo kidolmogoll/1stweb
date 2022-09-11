@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st website....</title>
+    <nav>
+        <li><a href="" >Main</a></li>
+        <li><a href="">Sign-in</a></li>
+        <li><a href="">Contact us</a></li>
+        <li><button>Get started</button></li>
+    </nav>
+    <div class="loader" id="loader">
+
+    </div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XVsfc3T-K9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/XVsfc3T-K9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/XVsfc3T-K9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/XVsfc3T-K9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/XVsfc3T-K9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/XVsfc3T-K9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/XVsfc3T-K9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/XVsfc3T-K9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/XVsfc3T-K9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/XVsfc3T-K9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/XVsfc3T-K9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <script>
+      var loader= document.getElementById("loader");
+      window.addEventListener("load",function(){
+       loader.style.display ="none";  
+      })
+  </script> 
+</head>
+<body>
+    <section id="first">
+  <div class="container">
+    <h2>This is my website</h2>
+    <p>My name is kidus Moges. I am 14 years old. I like making websites with HTML. I live in Ethiopia ; I love my country Ethiopia . Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem maiores eligendi sapiente iusto enim nobis, sequi earum. Officiis labore incidunt nam, quis asperiores maiores ex error, assumenda sit, rem magnam.</p>
+    <a href="">Ethiopia?</a>
+  </section>
+  <br>
+</div>
+  <section id="second">
+    <h2>Sign-in</h2>
+    <br>
+    <input type="text" placeholder="Your name" required minlength="3">
+    <br><br>
+    <input type="email" placeholder="Email" required >
+    <br><br>
+    <input type="password" required minlength="8">
+    <br><br>
+    <input type="checkbox"> Agree with the terms
+    <br><br>
+   <input type="submit" value="Sign-in" onclick="myfun();">
+   <br><br>
+   <span id="span">
+
+   </span>
+  </section>
+  
+ <script>
+    function myfun(){
+        document.getElementById("span").innerHTML = "You have successfully signed in!!!!"
+    }
+ </script>
+  <section id="third">
+    <footer>
+        <span><h1>Contact us</h1> 
+        <a href="">Gmail</a>
+        <br>
+        <a href="">Phone</a>
+        </span>
+        <span><h1>Social Media</h1> 
+            <a href="">Facebook</a>
+            <br>
+            <a href="">Twitter</a>
+            </span>
+            <span><h1>Email</h1> 
+                <a href="">Example@gmail.com</a>
+                <br>
+                <a href="">Example@yahoo.com</a>
+                </span>
+    </footer>
+  </section>
+</body>
+</html>
+<style>
+    *{
+        margin:0;
+        padding:0;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    nav li{
+        display: inline-block;
+        margin: 20px;
+        position: relative;
+        left: 50%;
+
+    }
+    nav{
+        background-color: orange;
+    }
+    nav li a{
+        color: white;
+        font-size: 28px;
+    }
+    nav li a:hover{
+        color: orange;
+    }
+    nav li button{
+        padding:20px;
+        background-color: white;
+        border: none;
+        color: black;
+
+        
+    }
+    #first{
+        font-size: 28px;
+        width: 900px;
+        text-align: left;
+    }
+    #second{
+        position: relative;
+        left: 40%;
+    }
+    input[type=text]{
+        padding: 12px;
+        width: 400px;
+    }
+    input[type=email]{
+        padding: 12px;
+        width: 400px;
+    }
+    input[type=password]{
+        padding: 12px;
+        width: 400px;
+    }
+   input[type=submit]{
+        padding:20px;
+        background-color: orange;
+        border: none;
+        color: white;
+        cursor: pointer;
+
+        
+    }
+    input[type=submit]:hover{
+        background-color: linear-gradient(blueviolet , aqua , antiquewhite ,azure , red) ;
+    }
+    span{
+        display: inline-block;
+        margin: 60px;
+        font-size: 32px;
+    }
+    footer{
+        background-color: orange;
+    }
+    span h1 {
+        color: white;
+
+    }
+    span a{
+        color: white;
+    }
+    .loader{
+        position: absolute;
+        left: 40%;
+        top: 30%;
+        border: 12px solid #fff;
+        border-radius:50% ;
+        border-top-color: orange ;
+        width: 500px;
+        height: 500px;
+        animation: loading 1s infinite;
+    }
+    @keyframes loading{
+        to{
+            transform: rotate(1turn);
+        }
+    }
+    iframe{
+        display: none;
+    }
+</style>
